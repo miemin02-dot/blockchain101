@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
+
+.display { font-family: 'Space Grotesk', sans-serif; letter-spacing: -0.03em; }
+.mono { font-family: 'JetBrains Mono', Menlo, monospace; }
+
+:root {
+  --bg-gradient: linear-gradient(160deg, #f0ebe3 0%, #faf8f5 40%, #eef3fb 100%);
+  --surface: rgba(255,255,255,0.72);
+  --surface-strong: rgba(255,255,255,0.92);
+  --surface-muted: rgba(255,255,255,0.44);
+  --ink: #122d45;
+  --ink-2: #334155;
+  --muted: #6b6580;
+  --subtle: #8a849c;
+  --border: rgba(18,45,69,0.10);
+  --border-strong: rgba(18,45,69,0.22);
+  --accent: #122d45;
+  --accent-hover: #1061a6;
+  --success: #1a8047;
+  --danger: #ba2b4c;
+  --warm: #c47d3e;
+  --warm-soft: rgba(196,125,62,0.12);
+  --green-soft: rgba(26,128,71,0.10);
+  --blue-soft: rgba(16,97,166,0.10);
+}
